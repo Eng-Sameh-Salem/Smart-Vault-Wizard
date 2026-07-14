@@ -1,4 +1,4 @@
-# 🛡️ Personal Encrypted Vault Wizard
+# 🛡️ Smart Backup Vault | Personal Encrypted Vault
 
 A professional Python application built with a modern GUI using **CustomTkinter** to provide maximum security for your files. The program compresses and encrypts your local folders using strong **AES-256-CFB** encryption, then automatically uploads them to your secure **Google Drive** storage.
 
@@ -39,20 +39,20 @@ Download the JSON file containing your client secrets, rename it to credentials.
 
 🚀 How to Use
 Part 1: Encryption & Backup
-Step 1: Click "إضافة مجلد للقائمة" (Add folder to list) to select the local folders you want to backup.
+Step 1: Click "Add Folder to List" to select the local folders you want to backup.
 
 Step 2: Enter the target folder name for your Google Drive (e.g., My_Cloud_Vault).
 
-Step 3: Enter a strong master password and click "تنفيذ التشفير والرفع السحابي الفوري" (Execute Encryption & Upload).
+Step 3: Enter a strong master password and click "Execute Secure Encryption & Cloud Upload".
 
 Part 2: Decryption & Restoration
-Switch to the "فك التشفير والاسترجاع الفوري" (Decryption & Instant Recovery) tab.
+Switch to the "Decryption & Instant Recovery" tab.
 
 Choose your encrypted vault file (with a .enc extension) from your device.
 
 Enter the exact password used during the encryption process.
 
-Click the decryption button and select the local directory where you want to extract your restored files.
+Click "Start Decryption & Data Restoration" and select the local directory where you want to extract your restored files.
 
 👨‍💻 Developer
 Developer: Sameh Salem (Engineer)
