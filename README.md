@@ -21,8 +21,8 @@ Make sure you have Python installed on your system, then run the following comma
 
 ```bash
 pip install customtkinter cryptography google-auth google-auth-oauthlib google-api-python-client
-
-2. Set Up Google Drive API
+```
+### 2. Set Up Google Drive API
 To enable the automatic cloud backup feature, follow these steps:
 
 Go to the Google Cloud Console.
@@ -35,9 +35,9 @@ Navigate to Credentials and create an OAuth client ID credential (select Desktop
 
 Download the JSON file containing your client secrets, rename it to credentials.json, and place it in the root directory of this project (next to the main script).
 
-⚠️ Security Warning: The credentials.json file and the generated token.json file contain sensitive credentials. They have been added to the .gitignore template to prevent you from accidentally exposing them on GitHub.
+### ⚠️ Security Warning: The credentials.json file and the generated token.json file contain sensitive credentials. They have been added to the .gitignore template to prevent you from accidentally exposing them on GitHub.
 
-🚀 How to Use
+### 🚀 How to Use
 Part 1: Encryption & Backup
 Step 1: Click "Add Folder to List" to select the local folders you want to backup.
 
@@ -54,8 +54,8 @@ Enter the exact password used during the encryption process.
 
 Click "Start Decryption & Data Restoration" and select the local directory where you want to extract your restored files.
 
-👨‍💻 Developer
+### 👨‍💻 Developer
 Developer: Sameh Salem (Engineer)
 
-📄 License
+### 📄 License
 This project is open-source and available under the MIT License.
