@@ -1,0 +1,14 @@
+# ملفات الاتصال السرية بجوجل درايف
+credentials.json
+token.json
+
+# الملفات المؤقتة والمشفرة والزيپ
+*.enc
+*.zip
+vault_payload_*/
+vault_raw_*/
+
+# ملفات بيئة العمل وبايثون المؤقتة
+__pycache__/
+*.pyc
+.env
